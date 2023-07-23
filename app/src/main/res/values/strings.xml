@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">UnscrambleTheWords</string>
+    <string name="how_the_game_works_nword_is_scrambled_except_for_the_first_letter_nunscramble_the_word_in_30_seconds" />
+    <string name="register_now">Register Now!</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="register">Register!</string>
+    <string name="unscramble_the_words">Unscramble the Words!</string>
+    <string name="sign_in">Sign in</string>
+    <string name="log_in">Log In</string>
+    <string name="back">Back</string>
+    <string name="play_the_game">Play the game</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="unscramble_the_word">Unscramble the Word!</string>
+    <string name="generate_scrambled_word">Generate scrambled word</string>
+    <string name="what_is_the_word">What is the word?</string>
+    <string name="check_your_answer">Check your answer!</string>
+    <string name="quit_game">Quit game</string>
+    <string name="exit">Exit</string>
+    <string name="words_handle">Words handle</string>
+    <string name="users_handle">Users handle</string>
+    <string name="unscramble_the_words_nadmin_page">Unscramble the Words!\nAdmin Page</string>
+    <string name="words_are_scrambled_except_for_the_first_letter_ntype_down_the_correct_words_within_30_seconds_each">Words are scrambled except for the first letter.\nType down the correct words within 30 seconds each</string>
+    <string name="words_are_scrambled_except_for_the_first_letter_guess_the_correct_words_within_30_seconds_each">Words are scrambled except for the first letter. Guess the correct words within 35 seconds each.</string>
+    <string name="words_are_scrambled_except_for_the_first_letter_nguess_the_correct_words_within_30_seconds_each">Words are scrambled except for the first letter.\nGuess the correct words within 35 seconds each.</string>
+    <string name="phonenumber">phoneNumber</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="verify">Verify</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="generate_otp">Generate OTP</string>
+    <string name="_7_letter_words_appear_scrambled_nunscramble_the_words_within_35_seconds_each">7-letter words appear scrambled.\nUnscramble the words within 35 seconds each!</string>
+</resources>

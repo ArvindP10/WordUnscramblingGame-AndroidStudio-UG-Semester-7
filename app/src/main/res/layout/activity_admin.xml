@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:padding="10dp"
+    tools:context=".PlayActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="25dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/material_on_primary_emphasis_high_type"
+        app:cardElevation="15dp"
+        >
+
+    <TextView
+        android:id="@+id/admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:fontFamily="cursive"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:text="@string/unscramble_the_words_nadmin_page"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_below="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="25dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="15dp"
+        app:cardBackgroundColor="@color/material_on_primary_emphasis_high_type"
+        >
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnUsersHandle"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="46.5dp"
+        android:layout_marginTop="50dp"
+        android:paddingBottom="10dp"
+        android:text="@string/users_handle" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnWordsHandle"
+        android:layout_below="@+id/btnUsersHandle"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="46.5dp"
+        android:layout_marginTop="125dp"
+        android:paddingBottom="10dp"
+        android:text="@string/words_handle" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnExit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="46.5dp"
+        android:layout_marginTop="200dp"
+        android:paddingBottom="10dp"
+        android:text="Sign Out" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
