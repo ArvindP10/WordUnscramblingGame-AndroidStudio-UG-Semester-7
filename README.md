@@ -4,7 +4,7 @@
 
 Mini-project made for the Mobile Computing course of the 7th Semester in my UG studies.
 
-This mini-project was made with Android Studio IDE, and built using Java, XML, and Google's Firebase Firestore NoSQL Database and Authentication Services. Detailed documentation is accessible in the root folder of the master branch.
+This mini-project was made with Android Studio IDE, and built using Java, XML, and Google's Firebase Firestore NoSQL Database and Authentication Services. Detailed documentation, named '2019115021_MobileComputing_ProjectReport.pdf', is accessible in the root folder of the master branch.
 
 References used are mentioned at the end of the documentation. The mini-project additionally uses code help from:
 
